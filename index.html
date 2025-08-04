@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadatos básicos para el documento HTML -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <!-- Contenedor para mostrar los resultados y pistas del juego -->
     <div class="resultParas">
-        <p class="guesses"></p>
-        <p class="lastResult"></p>
-        <p class="lowOrHi"></p>
+        <p class="guesses"></p>      <!-- Muestra los intentos anteriores -->
+        <p class="lastResult"></p>   <!-- Muestra el resultado del último intento -->
+        <p class="lowOrHi"></p>      <!-- Muestra si el número es más bajo o más alto -->
     </div>
+    <!-- Campo de entrada para que el usuario escriba su intento -->
     <label for="guessField">Adivina el número: </label>
     <input type="text" id="guessField" class="guessField" />
+    <!-- Botón para enviar el intento del usuario -->
     <input type="submit" value="Enviar respuesta" class="guessSubmit" />
-<script src="scripts.js"></script>
+    <!-- Enlace al archivo JavaScript principal del juego -->
+    <script src="scripts.js"></script>
 </body>
 </html>
