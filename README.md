@@ -18,6 +18,7 @@ Una vez que el jugador acierta o se queda sin intentos, puede **reiniciar el jue
 - HTML
 - CSS
 - JavaScript
+- TypeScript
 
 ## 🚀 Cómo ejecutar el juego
 
